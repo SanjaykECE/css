@@ -1,0 +1,29 @@
+<p style="color:any color we want;">   ->changes the colour of text of that para or header tag
+
+<style>
+  p {color:red;}
+</style>
+the above code changes the color of text whenever present inside a para tag
+Creating a class:
+<h2 class="red-text"> ->creates class
+
+
+Accessing a class:
+.red-text{
+color:red;
+}
+Add same classes in different places to access it
+"text-decoration:underline;"  -> underlines texts
+
+Create a external CSS file so that it can be accessed and code efficient
+In line commands takes more priority than a external command
+
+*{
+code
+}
+The * is used to select all the content in html
+<p id="softdev">  ->create id in html and use
+#softdev in css file to access it
+id needs unique name but class doesnt need to be unique
+
+parent tag>child tag >symbol is used to denote the child tag
