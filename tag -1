@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head >
+        <header>
+            <h1 style="color:rgb(0, 0, 139);text-align:center;">
+                STUDENT DETAILS
+                <br/>
+                <br/>
+            </h1>
+        </header>
+    </head>
+    <body style="background-color:greenyellow">
+        <h2 style="color:rgb(0, 0, 139);">
+            <u>
+            Personal Details :
+            </u>
+        </h2>
+        <h3>
+            Name:   
+            <input type="text" />
+            <br/>
+            <br/>
+            Age:
+            <input type="number"/>
+            <br/>
+            <br/>
+            Date of Birth:
+            <input type="date"/>
+            <br/>
+            <br/>
+            Aadhar Number:
+            <input type="number"/>
+            <br/>
+            <br/>
+            Height:
+            <input type="number" />
+            <br/>
+            <br/>
+            Weight:
+            <input type="number" />
+            <br/>
+            <br/>
+            Blood Group:
+            <input type="text" />
+            <br/>
+            <br/>
+            Identification Mark:
+            <input type="text" />
+            <br/>
+            <br/>
+            Address:
+            <input type="textarea" />
+            <br/>
+            <br/>
+
+
+            
+        </h3>
+        <h2>
+            <u>
+                <a href="file:///E:\HTML CSS\css1.html">Click here to fill Parents details!</a>
+                
+            </u>
+        </h2>
+    </body>
+
+</html>
