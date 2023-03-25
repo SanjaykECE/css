@@ -1,0 +1,36 @@
+div class="heart-box"
+<div class="heart"></div>
+</div>
+
+heart-box {
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.heart {
+animation: 0.7s ease-in 0s
+infinite alternate throb;
+width: 100px;
+height: 100px;
+background:
+transform: rotateZ(45deg);
+position: relative;
+filter: drop-shadow(2px 2px 2px #000);
+}
+.heart::before, .heart::after {
+content: '';
+width: 100px;
+height: 100px;
+background: #100;
+position: absolute;
+border-radius: 50%
+}
+.heart::before {
+top: 0;
+left: -50;
+}
+.heart::after {
+top: -50;
+right: 0;
+}
